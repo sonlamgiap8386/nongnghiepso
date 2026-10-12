@@ -2,7 +2,11 @@ name: Deploy React Vite to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ] # Nhánh chính của dự án
+
+# BỔ SUNG QUYỀN GHI CHO GITHUB ACTIONS ĐỂ KHÔNG BỊ LỖI X ĐỎ
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
