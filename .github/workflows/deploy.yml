@@ -2,9 +2,8 @@ name: Deploy React Vite to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # Nhánh chính của dự án
+    branches: [ main ]
 
-# BỔ SUNG QUYỀN GHI CHO GITHUB ACTIONS ĐỂ KHÔNG BỊ LỖI X ĐỎ
 permissions:
   contents: write
 
@@ -32,3 +31,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages
