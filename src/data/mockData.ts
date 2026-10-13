@@ -292,7 +292,7 @@ export const INITIAL_PRODUCTS: ProductItem[] = [
     rating: 5.0,
     reviewCount: 48,
     description: 'Vải thiều Lục Ngạn chính gốc quả đỏ au, cùi dày hạt nhỏ ngọt lịm thơm nức, đạt chuẩn xuất khẩu & VietGAP.',
-    image: './src/assets/images/vai_thieu_chu_1791794876673.jpg',
+    image: '/src/assets/images/vai_thieu_chu_1791794876673.jpg',
     isMyProduct: true,
   },
   {
