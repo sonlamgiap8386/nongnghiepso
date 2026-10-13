@@ -307,7 +307,7 @@ export const INITIAL_PRODUCTS: ProductItem[] = [
     rating: 5.0,
     reviewCount: 32,
     description: 'Cam Vinh vỏ mỏng, tép vàng ươm mọng nước, vị ngọt thanh mát đậm đà thơm ngát, thu hái tươi tại vườn đồi.',
-    image: '/src/assets/images/cam_duong_canh_1791794891255.jpg',
+    image: 'nongnghiepso/src/assets/images/cam_duong_canh_1791794891255.jpg',
     isMyProduct: false,
   },
   {
