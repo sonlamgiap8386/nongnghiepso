@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 export default defineConfig(() => {
   return {
     // THÊM DÒNG DƯỚI ĐÂY ĐỂ SỬA LỖI TRẮNG TRANG TRÊN GITHUB PAGES:
-    base: '/nongnghiepso/',
+    base: './nongnghiepso/',
 
     plugins: [react(), tailwindcss()],
     resolve: {
