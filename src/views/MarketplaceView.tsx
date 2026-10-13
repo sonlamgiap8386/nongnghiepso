@@ -55,7 +55,7 @@ export const MarketplaceView: React.FC<MarketplaceViewProps> = ({
       farmerName: 'Lương Thị Khánh Chi (Nông trại Thung Lũng Xanh)',
       rating: 5.0,
       reviewCount: 48,
-      image: '/src/assets/images/vai_thieu_chu_1791794876673.jpg',
+      image: 'nongnghiepso/src/assets/images/vai_thieu_chu_1791794876673.jpg',
       isMyProduct: true,
     },
     {
